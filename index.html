@@ -1,0 +1,70 @@
+<html>
+    <head> </head>
+
+	<body>
+
+		<h2>java</h2>
+		<p id="demo"></p>
+        <p id="demo2"></p>
+        <p id="joining"></p>
+        <p id="mylist"></p>
+        <p id="mylist2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+
+
+
+
+<script>
+
+    var color=["red", "blue", "green","yellow","pink"]
+    document.getElementById("demo").innerHTML=color[2];
+    document.getElementById("demo2").innerHTML=Math.round(4.6);
+    document.getElementById("joining").innerHTML=color.join("*");
+    document.getElementById("mylist").innerHTML=color;
+    color.pop();
+    document.getElementById("mylist2").innerHTML=color;
+    
+    function addition(a,b){
+
+    return a+b;
+    }
+
+    function average(a,b){
+
+    return addition (a,b)/2;
+    }
+    let result=average(10,20);
+    document.getElementById("demo3").innerHTML=result;
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+	
+
+
+
+
+	</body>
+
+
+<html/>
